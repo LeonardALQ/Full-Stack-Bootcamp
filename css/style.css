@@ -1,0 +1,20 @@
+body { 
+    background-color: #774360
+}
+img {
+    height: 200px;   
+}
+hr { 
+    width: 15%; 
+    height: 5px;    
+    border-style: none; 
+    border-top-width: 5px; 
+    border-top-style: dashed; 
+    border-top-color:rgb(76, 58, 81);
+}
+h1 { 
+    color: rgb(231, 171, 121);
+}
+h2 { 
+    color: rgb(231, 171, 121);
+}
