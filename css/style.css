@@ -1,20 +1,44 @@
 body { 
-    background-color: #774360
+    text-align:center;
+    margin: 0px;
+}  
+
+.text_box { 
+    height: 900px;
+    margin: 0px auto 0px auto;
 }
-img {
-    height: 200px;   
+
+.intro-container-text{ 
+    position: relative;
+    bottom: 600px;
+}
+.intro-container { 
+    position: relative;
+    bottom: 100px;
+}
+span { 
+    text-decoration:underline;
+}
+.pfp { 
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    height: 700px;
+    border-radius:25px;
+}
+.waving { 
+    position: absolute;
+    left: 30px;
+    top: 830px;
+}
+.dancing { 
+    position: absolute; 
+    right: 70px; 
+    top: 780px;
 }
 hr { 
-    width: 15%; 
-    height: 5px;    
-    border-style: none; 
-    border-top-width: 5px; 
-    border-top-style: dashed; 
-    border-top-color:rgb(76, 58, 81);
-}
-h1 { 
-    color: rgb(231, 171, 121);
-}
-h2 { 
-    color: rgb(231, 171, 121);
+    height: 5px;
+    margin: 0px;
+    color: black; 
+    background: black;
 }
