@@ -1,0 +1,31 @@
+#terminal { 
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #121212;
+}
+
+.terminal-image { 
+  margin: 15% auto 15% auto;
+}
+
+h1 { 
+  font-family: 'Merriweather', serif;
+}
+
+#introduction { 
+  color: #121212;
+  margin: 3%;
+}
+
+#experience { 
+  background-color: #121212;
+  text-align:center;
+}
+
+.experience-item {
+  color: #F5F5F5;
+  margin: 10% 25%;
+}
+
+#contact {
+  margin: 10% 25%;
+}
