@@ -1,44 +1,31 @@
-body { 
-    text-align:center;
-    margin: 0px;
-}  
-
-.text_box { 
-    height: 900px;
-    margin: 0px auto 0px auto;
+#terminal { 
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #121212;
 }
 
-.intro-container-text{ 
-    position: relative;
-    bottom: 600px;
+.terminal-image { 
+  margin: 15% auto 15% auto;
 }
-.intro-container { 
-    position: relative;
-    bottom: 100px;
+
+h1 { 
+  font-family: 'Merriweather', serif;
 }
-span { 
-    text-decoration:underline;
+
+#introduction { 
+  color: #121212;
+  margin: 3%;
 }
-.pfp { 
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    height: 700px;
-    border-radius:25px;
+
+#experience { 
+  background-color: #121212;
+  text-align:center;
 }
-.waving { 
-    position: absolute;
-    left: 30px;
-    top: 830px;
+
+.experience-item {
+  color: #F5F5F5;
+  margin: 10% 25%;
 }
-.dancing { 
-    position: absolute; 
-    right: 70px; 
-    top: 780px;
-}
-hr { 
-    height: 5px;
-    margin: 0px;
-    color: black; 
-    background: black;
+
+#contact {
+  margin: 10% 25%;
 }
