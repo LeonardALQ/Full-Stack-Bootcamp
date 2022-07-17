@@ -1,4 +1,5 @@
 let drums = document.querySelectorAll(".drum");
+let animationDelay = 300;
 let audio;
 for (let i = 0; i < drums.length; i++) { 
   drums[i].addEventListener("click", drumClicked);
@@ -37,5 +38,13 @@ function playDrum(key) {
       audio = new Audio("sounds/kick-bass.mp3");
       break;
   } 
+  buttonAnimation(key);
   audio.play();
+}
+
+function buttonAnimation(key){ 
+  document.querySelector("." + key).classList.add("pressed");
+  setTimeout(function() { 
+    document.querySelector("." + key).classList.remove("pressed")
+  }, animationDelay);
 }
