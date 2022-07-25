@@ -1,0 +1,12 @@
+<%- include("header") %>
+
+<% for (var title in posts) { %> 
+    <h1> <%= title.charAt(0).toUpperCase() + title.slice(1) %> </h1>
+    <p>
+    <%= posts[title] %>
+    <% if (posts[title].length > 100) { %>
+      <a href="/post/<%= title %>">Read More</a>
+   <% } %>
+    </p>
+<% } %>
+<%- include("footer") %>
